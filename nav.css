@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gelasio:wght@400;500;700&family=Henny+Penny&family=Hubballi&family=Inspiration&family=Jacques+Francois+Shadow&family=Lato:ital,wght@0,300;1,700&family=Lavishly+Yours&family=Monofett&family=Mystery+Quest&family=Playfair+Display+SC:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Quattrocento&family=Righteous&family=Sarala:wght@400;700&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 9;
+}
+.nav{
+    background-color: rgb(47, 83, 92);
+    padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    height: 60px;
+}
+
+#logo-title, #logo-title-banner {
+    font-family: 'Lavishly Yours', cursive;
+    line-height: 0.4em;
+    text-align: center;
+    color: #fff;
+}
+#logo-title{
+    font-size: 30px;
+    line-height: 0.7em;
+}
+#logo-title-banner{
+    font-size: 100px;  
+    line-height: 0.7em;
+    text-shadow: 2px 1px 2px #383838;  
+}
+#logo-subtitle, #logo-subtitle-banner{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.1em;
+  }
+#logo-subtitle{
+      font-size: 30px;
+      text-shadow: 2px 3px 5px #383838; 
+}
+#logo-subtitle-banner{
+    font-size: 100px;
+    text-shadow: 2px 4px 5px #383838;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 500px;
+    display: flex;
+}
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+}
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-box::placeholder{
+    color: #a9a9a9;
+}
+.nav-items a{
+    margin-left: 20px;
+}
+.nav-items a img{
+    width: 30px;
+}
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+.link:hover{
+    opacity: 1;
+}
+
+@media(max-width:992px) {
+
+    .nav{
+        
+        padding: 20px 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .content{
+        height: 80px;
+    }
+    
+    #logo-title-banner{
+        font-size: 60px;  
+        line-height: 0.7em;
+    }
+    #logo-subtitle-banner{
+        font-size: 55px;  
+        line-height: 0.7em;
+    }
+    .nav-items{
+        display: flex;
+        align-items: center;
+    }
+    .search{
+        width: 300px;
+    }
+    .search-box{
+        margin-top: 20px;
+        width: 60%;
+        height: 30px;
+        padding: 10px;
+    }
+    .search-btn{
+        margin-top: 20px;
+        width: 15%;
+        height: 30px;
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+   
+    .nav-items a{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+   
+    .link{
+        font-size: 10px;
+    }
+}
