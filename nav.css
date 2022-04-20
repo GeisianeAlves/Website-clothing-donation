@@ -152,30 +152,29 @@
         align-items: center;
     }
     .search{
-        width: 300px;
+        width: 250px;
     }
     .search-box{
         margin-top: 20px;
-        width: 65%;
+        width: 70%;
         height: 30px;
      
     }
+    .search-box::placeholder{
+        font-size:12px;
+    }
+
     .search-btn{
         margin-top: 20px;
-        width: 25%;
+        width: 30%;
         height: 30px;
         padding: 10px 10px;
         font-size: 12px;
-    }
-   
-    .nav-items a{
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
     }
 
     .nav-items a img{
         width: 24px;
         margin-top: 20px;
+        margin-left: 10px;
     }
 }
