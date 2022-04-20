@@ -122,17 +122,24 @@
 @media(max-width:992px) {
 
     .nav{
-        
         padding: 20px 10vw;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
+        padding-right: 20px;
     }
     
     .content{
-        height: 80px;
+        height: 60px;
     }
-    
+    #logo-title{
+        font-size: 20px;
+        line-height: 0.7em;
+    }
+    #logo-subtitle{
+        font-size: 20px;
+        line-height: 0.7em;
+    }
     #logo-title-banner{
         font-size: 60px;  
         line-height: 0.7em;
@@ -150,13 +157,13 @@
     }
     .search-box{
         margin-top: 20px;
-        width: 60%;
+        width: 70%;
         height: 30px;
      
     }
     .search-btn{
         margin-top: 20px;
-        width: 22%;
+        width: 30%;
         height: 30px;
         padding: 10px 10px;
         font-size: 12px;
