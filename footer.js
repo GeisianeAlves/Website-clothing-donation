@@ -54,7 +54,7 @@ const createFooter = () => {
                 <a href="#" class="social-link">twitter</a>
             </div>
         </div>
-        <p class="footer-credit">Chothing, donation. Giving Hope for All</p>
+        <p class="footer-credit">Clothing, donation. Giving Hope for All</p>
         `;
         }
 

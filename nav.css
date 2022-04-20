@@ -152,11 +152,11 @@
         margin-top: 20px;
         width: 60%;
         height: 30px;
-        padding: 10px;
+     
     }
     .search-btn{
         margin-top: 20px;
-        width: 15%;
+        width: 22%;
         height: 30px;
         padding: 10px 10px;
         font-size: 12px;
@@ -167,8 +167,9 @@
         flex-direction: column;
         margin-left: 20px;
     }
-   
-    .link{
-        font-size: 10px;
+
+    .nav-items a img{
+        width: 24px;
+        margin-top: 20px;
     }
 }

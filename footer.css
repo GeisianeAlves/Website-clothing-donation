@@ -46,20 +46,17 @@
     .footer-content{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+       align-items: center;
     }
-    .category{
-        padding-top: 50px;
+    .category, .category-title, .footer-social-container{
+        padding-top: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        font-size: 16px;
-        text-align: center;
-    } 
-    
-    .footer-link, .footer-title, .info{
+        align-items: center;
         font-size: 14px;
-    }
+        gap: 5px;
+    } 
+       
 }
